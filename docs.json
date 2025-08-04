@@ -17,6 +17,10 @@
       {
         "group": "Resources",
         "pages": ["resources/syntax"]
+      },
+      {
+        "group": "Common Issues",
+        "pages": ["common-issues/ios-dash"]
       }
     ],
     "global": {
