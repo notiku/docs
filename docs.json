@@ -12,7 +12,7 @@
     "groups": [
       {
         "group": "Overview",
-        "pages": ["overview/introduction"]
+        "pages": ["overview/introduction", "overview/donator-perks"]
       }
     ],
     "global": {
