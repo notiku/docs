@@ -13,6 +13,10 @@
       {
         "group": "Overview",
         "pages": ["overview/introduction", "overview/donator-perks"]
+      },
+      {
+        "group": "Resources",
+        "pages": ["resources/syntax"]
       }
     ],
     "global": {

@@ -1,0 +1,38 @@
+---
+title: "Syntax"
+description: "General explanation of the syntax used for commands."
+icon: "code"
+---
+
+## Formatting a duration
+
+When a command requires a `duration` parameter, you format it as a number followed by a unit. The unit can be one of the following:
+
+- `s` for seconds.
+- `m` for minutes.
+- `h` for hours.
+- `d` for days.
+
+For example, `1h` represents one hour, and `1d` represents one day. You can also combine units, for example, `3d1h` represents three days and one hour.
+
+## Flags
+
+When a command supports flags, you can use them to modify the command's behavior. Flags are mostly optional and can be used to specify additional options.
+
+For example, if a command supports a `--audio` flag, you can use it like this:
+
+```bash
+-download https://youtu.be/dQw4w9WgXcQ --audio
+```
+
+Some flags can be used with a value, like `--quality`:
+
+```bash
+-download https://youtu.be/dQw4w9WgXcQ --quality 1080
+```
+
+You can also chain flags together, like this:
+
+```bash
+-download https://youtu.be/dQw4w9WgXcQ --audio --quality 1080
+```
